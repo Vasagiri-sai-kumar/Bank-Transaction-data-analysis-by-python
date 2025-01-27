@@ -53,28 +53,6 @@ Before running the project, ensure you have the following:
   - seaborn
   - Jupyter Notebook (optional, for interactive analysis)
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bank-transaction-analysis.git
-   cd bank-transaction-analysis
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Place your transaction CSV file in the `data` folder and rename it to `transactions.csv`.
-2. Run the analysis script:
-   ```bash
-   python analyze_transactions.py
-   ```
-3. View the generated reports and visualizations in the `output` folder.
-
 ## File Structure
 
 ```
@@ -96,11 +74,3 @@ Before running the project, ensure you have the following:
 - Monthly spending trends
 - Expense category distribution (pie chart)
 - Top 5 expense categories
-
-## Customization
-
-To customize transaction categories, edit the `categorize.py` file and update the `CATEGORY_RULES` dictionary with your own rules.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions or find bugs, feel free to open an issue or submit a pull request.
