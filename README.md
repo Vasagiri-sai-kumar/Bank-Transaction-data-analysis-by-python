@@ -2,6 +2,36 @@
 
 This project demonstrates how to analyze and visualize bank transaction data using Python. The goal is to extract meaningful insights from transaction records, such as categorizing expenses, detecting trends, and summarizing financial activity.
 
+## Key Features:
+
+- Transaction ID: Unique identifier for each transaction, ensuring traceability.
+
+- Sender Account ID: The account number of the transaction sender.
+
+- Receiver Account ID: The account number of the transaction receiver.
+
+- Transaction Amount: The monetary value involved in the transaction.
+
+- Transaction Type: The type of transaction—Transfer, Withdrawal, or Deposit.
+
+- Timestamp: The exact date and time the transaction occurred.
+
+- Transaction Status: Indicates whether the transaction was successful or failed.
+
+- Fraud Flag: A binary flag indicating whether the transaction was flagged as fraudulent.
+
+- Geolocation (Latitude/Longitude): Geographic coordinates of the transaction, helpful for spatial analysis.
+
+- Device Used: The type of device used for conducting the transaction (Mobile or Desktop).
+
+- Network Slice ID: Identifies the 6G network slice used during the transaction.
+
+- Latency (ms): The delay (in milliseconds) experienced during the transaction.
+
+- Slice Bandwidth (Mbps): The bandwidth available in the network slice used for the transaction.
+
+- PIN Code: A four-digit security code used for the transaction (masked for privacy).
+
 ## Features
 
 - Import and clean bank transaction data
@@ -74,11 +104,3 @@ To customize transaction categories, edit the `categorize.py` file and update th
 ## Contributing
 
 Contributions are welcome! If you have suggestions or find bugs, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Special thanks to the open-source community for providing amazing tools and libraries that make projects like this possible!
