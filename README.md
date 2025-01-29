@@ -53,22 +53,6 @@ Before running the project, ensure you have the following:
   - seaborn
   - Jupyter Notebook (optional, for interactive analysis)
 
-## File Structure
-
-```
-├── data
-│   └── transactions.csv  # Your input transaction data
-├── output
-│   └── ...               # Generated visualizations and reports
-├── scripts
-│   ├── data_cleaning.py  # Functions for data cleaning
-│   ├── data_analysis.py  # Functions for analysis and visualization
-│   └── categorize.py     # Functions to categorize transactions
-├── analyze_transactions.py  # Main script
-├── requirements.txt         # List of dependencies
-├── README.md                # Project documentation
-```
-
 ## Example Visualizations
 
 - Monthly spending trends
